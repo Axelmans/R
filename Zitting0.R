@@ -1,4 +1,9 @@
 # ComputerZitting R0
+# Alle gegeven commands zijn gebruikt, alsook extra commands voor
+# plots op te slaan als afbeeldingen (in folder "Res0").
+# dit kan door de commands "png(filename.png)"
+# gevolgd door de plot
+# en dan "dev.off()"
 
 # Lezen van CSV en TXT bestanden
 # file = locatie van bestand om in te lezen (in dit geval de Data folder)
