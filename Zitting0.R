@@ -108,9 +108,3 @@ boxplot(gegevens$bachelor ~ gegevens$studierichting,
         xlab="Studierichting", ylab="Bachelor-Scores",
         main="Boxplot van Bachelor-scores en Studierichting")
 dev.off()
-
-
-
-
-
-
