@@ -1,0 +1,6 @@
+leeftijd = c(36, 48, 51, 54, 57, 60)
+lengte = c(86, 90, 91, 93, 94, 95)
+plot(leeftijd, lengte)
+correlatie = cor(leeftijd, lengte)
+Ctable = data.frame(leeftijd, lengte)
+cor_test = cor.test(leeftijd, lengte)
