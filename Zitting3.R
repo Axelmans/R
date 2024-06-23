@@ -3,8 +3,8 @@
 NrJongens = c(34,33,7)
 NrMeisjes = c(22,22,4)
 Ctable = data.frame(NrJongens,NrMeisjes)
+print(Ctable)
 ChiSq = chisq.test(Ctable)
-ChiSq
 ChiSq$observed
 ChiSq$expected
 
@@ -34,7 +34,7 @@ rokersmort = data.frame(rokers, mortaliteit)
 plot(rokersmort, type="p", xlab="# Rokers", ylab = "Mortaliteit", 
      main="Mortaliteit = f(# Rokers)")
 # Toont plot, klik op punt dat vermoedelijk de uitschieter is!
-# index_uitschieters<-identify(rokersmort, n = 1)
+index_uitschieters<-identify(rokersmort, n = 1)
 # Verwijdert aangeduid punt.
 # rokersmort_zonder_uitschieter = rokersmort[-index_uitschieters,]
 png("Res3/ScatterplotRokersMortaliteitZonderUitschieters.png")
